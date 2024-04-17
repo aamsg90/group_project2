@@ -31,10 +31,7 @@ public class C64BASIC {
     }
 
     public static void main(String[] args) throws IOException {
-        if (args.length != 2) {
-            System.out.println("Usage: java C64BASIC <input_file> <output_file>");
-            System.exit(1);
-        }
+    
 
         String inputFile = args[0];
         String outputFile = args[1];

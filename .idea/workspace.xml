@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9153f98-ef81-40eb-8c87-5e3010cf4da0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group_project2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C64BASIC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tokenizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C64BASIC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C64BASIC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712432682239</updated>
       <workItem from="1712432683328" duration="3899000" />
-      <workItem from="1713314485727" duration="750000" />
+      <workItem from="1713314485727" duration="2298000" />
     </task>
     <servers />
   </component>
