@@ -1,6 +1,9 @@
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.charset.Charset;
+import java.nio.file.StandardOpenOption;
+
 
 public class C64BASIC {
 
@@ -33,15 +36,15 @@ public class C64BASIC {
     public static void main(String[] args) throws IOException {
     
 
-        String inputFile = args[0];
-        String outputFile = args[1];
+//        String inputFile = args[0];  pass inputFile in path.get()
+//        String outputFile = args[1];  pass outputFile in path.get()
 
-        byte[] bytes = Files.readAllBytes(Paths.get(inputFile));
-        Tokenizer tokenizer = new Tokenizer(new String(bytes));
+        byte[] bytes = Files.readAllBytes(Paths.get(args[0]));
+        Tokenizer tokenizer = new Tokenizer(new String(bytes, Charset.defaultCharset()));
 
         byte[] program = tokenizer.scanTokens();
         hexdump(program);
 
-        Files.write(Paths.get(outputFile), program);
+        Files.write(Paths.get(args[1]), program, StandardOpenOption.CREATE);
     }
 }
